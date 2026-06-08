@@ -3,26 +3,32 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Document</title>
+  <title>Landing</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Nanum+Gothic+Coding&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
   <div class="feader">
     <!--HEADER-->
-    <div>
-      <span>LOGO</span><span>link1</span><span>link2</span><span>link3</span>
+    <div class="header">
+      <span class="semi-text logo">LOGO</span>
+      <span class="info-text">link1</span>
+      <span class="info-text">link2</span>
+      <span class="info-text">link3</span>
     </div>
 
     <!--TITLE-->
-    <div>
+    <div class="title">
       <div>
-        <h2>Hello From Somewhere</h2>
-        <p>
+        <h2 class="title-text">Hello From Somewhere</h2>
+        <p class="info-text">
           Hi this is a paragraph from a github repo about a landing page.
           I hope your having a good day and stuff.
           Anyways I don't really know what else to write, I just want to take up space on the site.
         </p>
-        <button>Click Me</button>
+        <button class="sign-up info-text">Sign Up</button>
       </div>
       <div>
         <img src="https://images.pexels.com/photos/35413462/pexels-photo-35413462.jpeg" alt="stock image sinkhole with light" width="451">
@@ -31,12 +37,14 @@
   </div>
 
   <!--BODY-->
-  <div>
-    <h3>Body Information</h3>
-    <p>Img Placeholder</p>
-    <p>Img Placeholder</p>
-    <p>Img Placeholder</p>
-    <p>Img Placeholder</p>
+  <div class="body">
+    <h3>Body Information.</h3>
+    <div class="thumbnails">
+      <p>Img Placeholder</p>
+      <p>Img Placeholder</p>
+      <p>Img Placeholder</p>
+      <p>Img Placeholder</p>
+    </div>
   </div>
 
   <!--QUOTE-->
@@ -46,21 +54,21 @@
       Run up your bread and participate in boss moves and always grind.
       If you do this you will be turnt indeed.
     </p>
-    <p>-Shrek</p>
+    <h4>-Shrek</h4>
   </div>
 
   <!--SIGN UP-->
-  <div>
+  <div class="sign-up">
     <div>
-      <p>Sign up for Hypest Newsletter</p>
-      <p>If you don't sign up your mom will be mad.</p>
+      <h3 class="semi-text">Sign up for Hypest Newsletter</h3>
+      <p class="info-text">If you don't sign up your mom will be mad.</p>
     </div>
-    <button>Sign Up</button>
+    <button class="info-text">Sign Up</button>
   </div>
 
   <!--FOOTER-->
   <div class="feader">
-    <p>Copyright @ Lit Corp 6-7</p>
+    <p class="info-text footer">Copyright @ Lit Corp 6-7</p>
   </div>
 </body>
 </html>

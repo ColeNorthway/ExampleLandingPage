@@ -1,11 +1,85 @@
 * {
-  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
+  font-family: Roboto;
 }
 
+/*General*/
+.info-text {
+  font-size: 16px;
+  color: #E5E7EB
+}
+.semi-text { 
+  font-size: 20px;
+  color: #F9FAF8
+}
+
+
+/*Header and Footer*/
 .feader {
   background-color: #1F2937;
 }
+.header{
+  display: flex;
+  justify-content: end;
+}
+.logo{
+  margin-right: auto;
+}
+.footer{
+  display: flex;
+  justify-content: center;
+}
 
+
+/*Title*/
+.title {
+  display: flex;
+}
+.title-text {
+  font-size: 35px;
+  color: #F9FAF8;
+  font-weight: 800;
+}
+
+
+/*Body*/
+.body {
+  display: flex;
+  flex-direction: column;
+}
+.body h3 {
+  font-size: 28px;
+  font-weight: 710;
+  text-align: center;
+}
+.thumbnails {
+  display: flex;
+  justify-content: center;
+}
+
+
+/*Quote*/
 .quote {
   background-color: #E5E7EB;
+  display: flex;
+  flex-direction: column;
+}
+.quote p {
+  font-size: 31px;
+  font-weight: 300;
+  font-style: italic;
+  text-align: center;
+}
+.quote h4 {
+  align-self: center;
+}
+
+
+/*Sign Up*/
+.sign-up {
+  background-color: #3882F6;
+  display: flex;
+  justify-content: space-evenly;
+}
+.sign-up button{
+  background-color: #3882F6;
 }
